@@ -30,7 +30,7 @@ const Search: FC<SearchProps> = ({ title }) => {
       <div className="hero-body">
         <div className="container">
           <h1 className="title">{title}</h1>
-          <form className="py-5">
+          <form className="py-5" onSubmit={submitHandler}>
             <input
               type="text"
               className="input has-text-centered mb-2"
@@ -51,3 +51,5 @@ const Search: FC<SearchProps> = ({ title }) => {
     </div>
   );
 };
+
+export default Search;
