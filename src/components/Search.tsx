@@ -26,7 +26,7 @@ const Search: FC<SearchProps> = ({ title }) => {
     setCity("");
   };
   return (
-    <div className="hero is-light has-text-centered">
+    <div className="hero has-background-grey has-text-centered">
       <div className="hero-body">
         <div className="container">
           <h1 className="title">{title}</h1>
@@ -43,7 +43,7 @@ const Search: FC<SearchProps> = ({ title }) => {
               className="button is-primary is-fullwidth"
               style={{ maxWidth: 300, margin: "0 auto" }}
             >
-              Search
+              Find
             </button>
           </form>
         </div>
