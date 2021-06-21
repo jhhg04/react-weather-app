@@ -36,7 +36,7 @@ const Weather: FC<WeatherProps> = ({ data }) => {
                 </p>
                 <p>
                   {celsius}
-                  <sup>&#8457;</sup>
+                  <sup>&#8451;</sup>
                 </p>
               </div>
             </div>
